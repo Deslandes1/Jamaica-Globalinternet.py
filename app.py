@@ -128,42 +128,41 @@ st.markdown(
         <p class="flag-style">🇯🇲</p>
         <h1 class="company-title">GLOBALINTERNET.PY</h1>
         <p style="color: #febd11; font-weight: bold; font-size: 1.1rem; letter-spacing: 1px;">
-            NEXT-GEN DIGITAL INFRASTRUCTURE & TECHNOLOGY DECK
+            BUILDING SOVEREIGN GLOBAL DIGITAL ECOSYSTEMS
         </p>
     </div>
     """,
     unsafe_allow_html=True
 )
 
-st.subheader("🚀 Elite Enterprise Services We Offer In Jamaica:")
-st.write("We build custom sovereign technological pipelines with zero monthly subscription traps.")
+# =========================================================================
+# 👨‍💻 ABOUT THE COMPANY SECTION
+# =========================================================================
+st.subheader("👨‍💻 About the Company")
+st.info(
+    "**GlobalInternet.py** was founded by **GESNER DESLANDES** – owner, founder, and lead engineer. "
+    "We build Python‑based software on demand for clients worldwide. Like Silicon Valley, but with a "
+    "Haitian touch and outstanding outcomes."
+)
 
-# Displaying Services using clean scannable expanders 
-with st.expander("🌐 1. Decentralized Mesh Internet Relays"):
-    st.write("""
-    Deploying independent, high-availability local mesh routing architectures. 
-    We provide communities and corporations across Jamaica with continuous digital connectivity, 
-    independent of major single-point-of-failure internet service provider monopolies.
-    """)
+st.markdown("---")
 
-with st.expander("🛠️ 2. Custom Python & AI Software Engineering"):
-    st.write("""
-    Bespoke programming configurations built using pure backend architectures. 
-    From custom web microservices to standalone data dashboard setups tailored 
-    specifically to optimize your local operations.
-    """)
+# =========================================================================
+# 🛠️ SERVICE DISPLAY NODES
+# =========================================================================
+st.subheader("🚀 Services We Offer in Jamaica")
 
-with st.expander("📦 3. Zero-Subscription Supply Chain Sourcing & Dropshipping"):
-    st.write("""
-    Why pay monthly platform rental fees? We build high-speed direct-to-consumer software pipelines 
-    connecting your enterprise interface straight to international factory APIs (AliExpress, CJ Dropshipping, DHgate).
-    """)
+with st.expander("🧠 AI‑powered solutions", expanded=True):
+    st.write("Advanced intelligent systems including smart conversational chatbots, automated data analysis structures, and streamlined business operations automation.")
 
-with st.expander("🔬 4. Natural Resource Detection & Deep Analytical Models"):
-    st.write("""
-    Utilizing custom data engines to interpret physical environmental layers, mineral metrics, 
-    and specialized industrial geological research analysis layouts.
-    """)
+with st.expander("🗳️ Complete election & voting systems", expanded=True):
+    st.write("Highly secure, decentralized, multi‑language corporate or organizational voting frameworks with real‑time server verification matrices.")
+
+with st.expander("🌐 Web applications", expanded=True):
+    st.write("Custom interactive visual dashboards, optimized software internal tools, and robust cloud‑native online platforms built to scale.")
+
+with st.expander("📦 Full package delivery", expanded=True):
+    st.write("We email you the complete, raw source code directory and provide personalized guidance through your deployment installation pipelines. **We build it, you own it.**")
 
 # =========================================================================
 # 📞 SECURE CONTACT TERMINAL ZONE
@@ -189,7 +188,7 @@ with col_email:
     st.markdown(
         """
         <a class="contact-btn" href="mailto:deslandes78@gmail.com">
-            ✉️ Email Us Securely
+            ✉️ deslandes78@gmail.com
         </a>
         """,
         unsafe_allow_html=True
